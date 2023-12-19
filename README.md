@@ -31,7 +31,7 @@ First move your deface script into the tool before running the tool
 - **First**: Install tools according to the instructions above
 - **Second**: Move your own script into the tool
 - **Third**: Go into tools then type the name of your HTML script into tools,for example hacker.html
-- **Fourth**: Then the tool will automatically deface the target virtual website in target.txt
+- **Fourth**: Then the tool will automatically deface the target vulnerable website in target.txt
 - **Last**: Then copy the link that has been successfully defaced into the browser to see the results
 
 # What the code does
