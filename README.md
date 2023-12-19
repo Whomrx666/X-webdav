@@ -28,9 +28,11 @@ _______________________________________
 First move your deface script into the tool before running the tool
 
 ## Instructions
-- **IP target**: Target IP address
-- **Port**: The port you want to use, for example, is 80
-- **Thread count**: How many floods do you want to send to the target server
+- **First**: Install tools according to the instructions above
+- **Second**: Move your own script into the tool
+- **Third**: Go into tools then type the name of your HTML script into tools,for example hacker.html
+- **Fourth**: Then the tool will automatically deface the target virtual website in target.txt
+- **Last**: Then copy the link that has been successfully defaced into the browser to see the results
 
 # What the code does
 The code is a simple program in Python that attempts to upload a provided HTML file to multiple websites as specified in a target file named "targets.txt". The uploaded HTML file is intended to replace the content of the index page on the target websites. The program uses the "requests" library to handle the HTTP requests. The user is asked to input the name or path of the HTML file to be uploaded. If the file is found, the program then reads the contents of the file and the "targets.txt" file, which contains a list of target websites. The program then loops through each website in the list and attempts to upload the HTML file using a HTTP PUT request. If the upload is successful, a message is displayed indicating that the upload was successful. If the upload fails, a message is displayed indicating that the upload failed.
